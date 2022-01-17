@@ -22,6 +22,10 @@ class ProductController {
             throw new Error(err.message);
         }
     }
+
+    async updateById (req, res) {
+        res.status(405).json({ message: "Not allowed" });
+    }
 }
 
 module.exports = new ProductController();
