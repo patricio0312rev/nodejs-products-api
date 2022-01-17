@@ -13,6 +13,15 @@ class ProductController {
             throw new Error(err.message);
         }
     }
+
+    async getAll(req, res) {
+        try {
+            const data = await ProductModel.findAll({});
+            res.status(201).json(data);
+        } catch (err) {
+            throw new Error(err.message);
+        }
+    }
 }
 
 module.exports = new ProductController();
