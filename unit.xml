@@ -1,62 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.5390" tests="11" failures="11">
-  <testsuite name="Root Suite" timestamp="2022-01-17T04:18:32" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.5720" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-01-17T04:28:06" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="products_api_medium" timestamp="2022-01-17T04:18:32" tests="11" file="/Users/Patricio/Sites/nodejs-products-api/test/index.spec.js" time="0.5390" failures="11">
-    <testcase name="products_api_medium should create a new product" time="0.1140" classname="should create a new product">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 404
-    at Context.<anonymous> (test/index.spec.js:62:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+  <testsuite name="products_api_medium" timestamp="2022-01-17T04:28:06" tests="11" file="/Users/Patricio/Sites/nodejs-products-api/test/index.spec.js" time="0.5720" failures="0">
+    <testcase name="products_api_medium should create a new product" time="0.1200" classname="should create a new product">
     </testcase>
-    <testcase name="products_api_medium should create a new products without the published field" time="0.0200" classname="should create a new products without the published field">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 201 but got 404
-    at Context.<anonymous> (test/index.spec.js:69:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should create a new products without the published field" time="0.0170" classname="should create a new products without the published field">
     </testcase>
-    <testcase name="products_api_medium should fetch all the products" time="0.0660" classname="should fetch all the products">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404
-    at Context.<anonymous> (test/index.spec.js:77:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should fetch all the products" time="0.0840" classname="should fetch all the products">
     </testcase>
-    <testcase name="products_api_medium should fetch no products if there are not products stored" time="0.0130" classname="should fetch no products if there are not products stored">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404
-    at Context.<anonymous> (test/index.spec.js:83:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should fetch no products if there are not products stored" time="0.0070" classname="should fetch no products if there are not products stored">
     </testcase>
-    <testcase name="products_api_medium should publish the product if all the constraints are met" time="0.0420" classname="should publish the product if all the constraints are met">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 204 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 204 but got 404
-    at Context.<anonymous> (test/index.spec.js:91:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should publish the product if all the constraints are met" time="0.0640" classname="should publish the product if all the constraints are met">
     </testcase>
-    <testcase name="products_api_medium should publish the product and the data should be updated in the DB" time="0.0720" classname="should publish the product and the data should be updated in the DB">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 204 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 204 but got 404
-    at Context.<anonymous> (test/index.spec.js:97:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should publish the product and the data should be updated in the DB" time="0.0970" classname="should publish the product and the data should be updated in the DB">
     </testcase>
-    <testcase name="products_api_medium should get 422 when MRP is less the price of the product" time="0.0450" classname="should get 422 when MRP is less the price of the product">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 404
-    at Context.<anonymous> (test/index.spec.js:107:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should get 422 when MRP is less the price of the product" time="0.0670" classname="should get 422 when MRP is less the price of the product">
     </testcase>
-    <testcase name="products_api_medium should get 422 when stock of the product is 0" time="0.0340" classname="should get 422 when stock of the product is 0">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 404
-    at Context.<anonymous> (test/index.spec.js:114:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should get 422 when stock of the product is 0" time="0.0450" classname="should get 422 when stock of the product is 0">
     </testcase>
-    <testcase name="products_api_medium should get 422 when both  MRP is less the price of the product and stock of the product is 0" time="0.1080" classname="should get 422 when both  MRP is less the price of the product and stock of the product is 0">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 404
-    at Context.<anonymous> (test/index.spec.js:121:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should get 422 when both  MRP is less the price of the product and stock of the product is 0" time="0.0450" classname="should get 422 when both  MRP is less the price of the product and stock of the product is 0">
     </testcase>
-    <testcase name="products_api_medium should get 405 for a put request to /products/:id" time="0.0120" classname="should get 405 for a put request to /products/:id">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 404
-    at Context.<anonymous> (test/index.spec.js:129:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should get 405 for a put request to /products/:id" time="0.0140" classname="should get 405 for a put request to /products/:id">
     </testcase>
-    <testcase name="products_api_medium should get 405 for a delete request to /products/:id" time="0.0130" classname="should get 405 for a delete request to /products/:id">
-      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 404
-    at Context.<anonymous> (test/index.spec.js:135:30)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="products_api_medium should get 405 for a delete request to /products/:id" time="0.0120" classname="should get 405 for a delete request to /products/:id">
     </testcase>
   </testsuite>
 </testsuites>
